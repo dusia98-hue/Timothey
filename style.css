@@ -1,0 +1,150 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+        
+/* Шапка */
+        
+.header {
+  background: #4a6fa5; 
+  color: white; 
+  display: flex;
+  flex-wrap: wrap; /*перенос строки */
+  justify-content: space-between; /*прижимает содержимое к краям */
+  align-items: center; /*выравнивает элементы по центру на вертикальной */
+}
+
+.header .logo {
+  padding-left: 30px;
+}
+
+.header .menu ul {
+  display: flex;
+  list-style: none;
+}
+
+.header .menu ul li {
+  margin: 20px 10px;
+}
+
+.header .menu ul a {
+  text-decoration: none;
+  color: white;
+}
+        
+        /* Навигация
+        nav { 
+            background: #2B425C; 
+            padding: 1rem; 
+        }
+        nav ul { 
+            display: flex; 
+            justify-content: center; 
+            list-style: none; 
+            gap: 0.5rem; 
+        }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+        }  */
+
+    /* Основной контент */
+    main { 
+        display: flex; 
+            padding: 1rem; 
+            gap: 1rem; 
+            max-width: 1000px; 
+            margin: 0 auto; 
+            color: #C45D09; 
+        }
+        
+        /* Статьи */
+        section { flex: 3; }
+        article { 
+            background: #f9f9f9; 
+            padding: 1rem; 
+            margin-bottom: 1rem; 
+            border-radius: 5px; 
+        }
+        
+
+        
+        /* Подвал */
+        footer { 
+            background: #2B425C; 
+            color: white; 
+            text-align: center; 
+            padding: 1rem; 
+            margin-top: 1rem; 
+        }
+        
+        .hid { 
+            color: white; 
+            text-shadow:
+            1px 1px 2px red,
+            0 0 1em #2B425C,
+            0 0 0.2em #2B425C;
+
+        }
+        .hbl { 
+            color: #3165a2; 
+        }
+      /*  p { 
+            color: #C45D09; 
+        }  */
+
+     .flex-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+     img {  
+           box-shadow: 0 0 10px gray; 
+     } 
+
+        /* Боковая панель  */
+        aside { 
+             flex 1; 
+            
+            background: #2B425C; 
+            padding: 1rem; 
+            border-radius: 5px; 
+        }
+        aside ul{ 
+            list-style: none; 
+            gap: 0.5rem; 
+        }
+
+        aside a{
+            color: white; 
+            text-decoration: none; 
+        } 
+
+        /* Адаптивность */
+        @media (max-width: 600px) {
+            main { flex-direction: column; }
+      aside { 
+            display: flex;
+        }
+
+        aside ul{ 
+            display: flex;
+            justify-content: center; 
+            list-style: none; 
+            gap: 0.5rem; 
+        }
+        }
+
+@media screen  and (min-width: 600px) {
+   aside {
+  /*  flex-direction: column; */
+  }
+  aside  ul {
+   /* flex-direction: column; */
+  }
+  aside  ul li {
+    margin: 5px;
+  }
+}
+.image-container img {
+transition: transform 0.5s ease;
+}
+
