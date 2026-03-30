@@ -15,50 +15,10 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
                 text-align: center;
         }
        
-/* Шапка */
-        
-.header {
-  background: #4a6fa5; 
-  color: white; 
-  display: flex;
-  flex-wrap: wrap; /*перенос строки */
-  justify-content: space-between; /*прижимает содержимое к краям */
-  align-items: center; /*выравнивает элементы по центру на вертикальной */
-}
-
-.header .logo {
-  padding-left: 30px;
-}
-
-.header .menu ul {
-  display: flex;
-  list-style: none;
-}
-
-.header .menu ul li {
-  margin: 20px 10px;
-}
-
-.header .menu ul a {
-  text-decoration: none;
-  color: white;
-}
-        
-        /* Навигация
-        nav { 
-            background: #2B425C; 
-            padding: 1rem; 
-        }
-        nav ul { 
-            display: flex; 
-            justify-content: center; 
-            list-style: none; 
-            gap: 0.5rem; 
-        }
-        nav a { 
+        a{
             color: white; 
-            text-decoration: none; 
-        }  */
+            /* text-decoration: none;  */
+        } 
 
     /* Основной контент */
     main { 
