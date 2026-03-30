@@ -17,7 +17,7 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
        
         a{
             color: white; 
-            /* text-decoration: none;  */
+            font-style: italic;
         } 
 
     /* Основной контент */
@@ -80,8 +80,7 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
 
         /* Боковая панель  */
         aside { 
-             flex 1; 
-            
+            flex 1; 
             background: #2B425C; 
             padding: 1rem; 
             border-radius: 5px; 
