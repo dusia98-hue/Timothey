@@ -14,11 +14,7 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
             background-color: #f2f2f2;
                 text-align: center;
         }
-       
-        a{
-            color: white; 
-            font-style: italic;
-        } 
+             
 
     /* Основной контент */
     main { 
@@ -49,7 +45,10 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
             padding: 1rem; 
             margin-top: 1rem; 
         }
-        
+        footer a{
+            color: white; 
+            font-style: italic;
+        }
         .hid { 
             color: white; 
             text-shadow:
