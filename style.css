@@ -1,6 +1,20 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: Arial, sans-serif; line-height: 1.6; }
-        
+         table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+                text-align: center;
+        }
+       
 /* Шапка */
         
 .header {
@@ -96,9 +110,13 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
             align-items: center;
             gap: 20px;
         }
-     img {  
-           box-shadow: 0 0 10px gray; 
-     } 
+    #shad {  
+        box-shadow: 0 0 10px gray; 
+        } 
+
+    #imh {
+          margin-right: 10px;
+        }
 
         /* Боковая панель  */
         aside { 
@@ -147,4 +165,9 @@ body { font-family: Arial, sans-serif; line-height: 1.6; }
 .image-container img {
 transition: transform 0.5s ease;
 }
-
+div {
+  background-repeat: no-repeat;
+}
+.exm {
+  background: url("img/boat.jpg") top right no-repeat;
+}
